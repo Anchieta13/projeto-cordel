@@ -92,8 +92,16 @@ section#img02 {
 }
 
 footer {
-    background-color: black;
+    background-color: rgba(88, 86, 86, 0.301);
     color: white;
     text-align: center;
     padding: 8px;
+}
+
+footer > p {
+    padding: 1em;    
+}
+
+footer > img {
+    padding-top: 1px;
 }
