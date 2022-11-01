@@ -38,14 +38,19 @@ header > p {
     padding-bottom: 50px;
 }
 
-header a, footer a {
+header a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    transition: .5s;
 }
 
-header a:hover footer a:hover{
+header a:hover {
+    background-color: white;
+    color: black;
     text-decoration: underline;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 section {
